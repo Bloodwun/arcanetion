@@ -7,7 +7,7 @@
         <div class="mobile clearfix">
             <div class="header">
                 <span class="ion-ios-navicon pull-left"><i></i></span>
-                <span class="title">E Commerce</span>
+                <span class="title">Market</span>
                 <span class="ion-ios-search pull-right"></span>
                 <div class="search">
                     <form method="post">
