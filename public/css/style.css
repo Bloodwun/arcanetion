@@ -30,6 +30,10 @@ h6 {
     line-height: 2rem;
 }
 
+.color-primary {
+    color: #f23363;
+}
+
 .mobile-wrap {
     margin: auto;
     width: 300px;
@@ -406,8 +410,16 @@ h6 {
     border: none;
     font-size: 16px;
     padding: 12px 24px;
-    background: #cf0e3f;
     border-radius: 30px
+}
+
+.btn-primary {
+    background: #cf0e3f;
+}
+
+.btn-sm {
+    font-size: 11px;
+    padding: 5px 10px;
 }
 
 .search .title {
@@ -611,6 +623,23 @@ h6 {
     margin-top: 10px;
     line-height: 22px;
     text-align: center
+}
+
+.live .live-img {
+    height: 100px;
+    background: black;
+    position: relative;
+    border: 1px solid rgb(41, 41, 41);
+}
+
+.live .live-img .icon {
+    /* add black color with 0.3 opacity */
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 .live .title {
@@ -1365,4 +1394,61 @@ h6 {
     margin-top: 10px;
     line-height: 22px;
     text-align: center
+}
+
+
+/* /QR Code */
+
+.qrcode {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+
+.qrcode span {
+    font-size: 200px;
+    color: #fff;
+    padding: 3.2rem;
+    position: absolute;
+    top: 120px;
+}
+
+.qrcode .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.qrcode i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.qrcode .square {
+    width: 270px;
+    height: 350px;
+    background: transparent;
+    border: 10px solid #999;
+    position: absolute;
+    top: 100px;
+}
+
+.qrcode .scan {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(cyan, transparent);
+    animation: scanning 1.5s linear alternate infinite;
+}
+
+@keyframes scanning {
+    0% {
+        transform: translatey(0px);
+    }
+
+    100% {
+        transform: translatey(270px);
+    }
 }

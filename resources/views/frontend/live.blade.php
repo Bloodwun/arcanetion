@@ -28,63 +28,82 @@
 
 
                 <div class="html live visible">
-                    <div class="forecast clearfix">
-                        <div class="datetime pull-left bounceInLeft animated">
-                            <div class="day">Thursday</div>
-                            <div class="date">June 18, 2015</div>
-                        </div>
-                        <div class="temperature pull-right bounceInRight animated">
-                            <div class="unit"><span class="ion-ios-sunny-outline"></span> 34<i>&deg;</i></div>
-                            <div class="location">Kathmandu, Nepal</div>
-                        </div>
-                    </div>
-                    <div class="live-list">
-                        <div class="note clearfix slideInRight animated">
-                            <div class="time pull-left">
-                                <div class="hour">9</div>
-                                <div class="shift">AM</div>
-                            </div>
-                            <div class="to-do pull-left">
-                                <div class="title">Finish HTML Coding</div>
-                                <div class="subject">Web UI</div>
-                            </div>
-                        </div>
-                        <div class="note clearfix slideInRight animated">
-                            <div class="time pull-left">
-                                <div class="hour">1</div>
-                                <div class="shift">PM</div>
-                            </div>
-                            <div class="to-do pull-left">
-                                <div class="title">Lunch Break</div>
-                                <div class="subject"></div>
-                            </div>
-                        </div>
-                        <div class="note clearfix slideInRight animated" data-revert="slideOutRight">
-                            <div class="time pull-left">
-                                <div class="hour">3</div>
-                                <div class="shift">PM</div>
-                            </div>
-                            <div class="to-do pull-left">
-                                <div class="title">Design Stand Up</div>
-                                <div class="subject">Hangouts</div>
-                                <div class="user-list clearfix">
-                                    <div class="user pull-left"><img
-                                            src="https://raw.githubusercontent.com/khadkamhn/secret-project/master/img/usr-i.png">
-                                    </div>
-                                    <div class="user pull-left"><img
-                                            src="https://raw.githubusercontent.com/khadkamhn/secret-project/master/img/usr-ii.png">
-                                    </div>
+                    {{-- <div class="d-flex">
+                        <button class="btn btn-primary btn-sm">
+                            Home
+                        </button>
+                        <button class="btn btn-secondary btn-sm">
+                            Scan
+                        </button>
+                        <button class="btn btn-secondary btn-sm">
+                            Play
+                        </button>
+                        <button class="btn btn-secondary btn-sm">
+                            Result
+                        </button>
+                    </div> --}}
+                    <div class="row">
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/1.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                                <div class="icon">
+                                    <span class="ion-trophy"></span>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/2.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/3.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/4.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/5.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/6.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Results --}}
+                    <div class="results">
+                        <div class="heading">
+                            <h5 class="color-primary">Results</h5>
+                        </div>
+                        <div class="item">
+                            <h5 class="flipInX animated my-0">The elf Abdul cast a spell at the goblin</h5>
+
+                            <h6 class="flipInX animated my-0"> Casted Fire storm </h6>
+                            <h6 class="flipInX animated my-0">Successful attack </h6>
+                            <p class="flipInX animated my-0">overcame oppenent resistance and was able to cause fire damage
+                            </p>
+
+                        </div>
                     </div>
                 </div>
+                {{-- Load Nav from layout --}}
+
+                @include('layout.nav')
 
             </div>
-            {{-- Load Nav from layout --}}
-
-            @include('layout.nav')
-
         </div>
-    </div>
-@endsection
+    @endsection

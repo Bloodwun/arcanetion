@@ -50,7 +50,7 @@
                         <p class="heading flipInY animated">
                             <span class="name">Abdul Shakoor</span>
                         </p>
-                        <p class="text fadeInUp animated">Abdul Shakoor is renowned for his expertise in card games,
+                        <p class="text fadeInUp animated">Abdul Shakoor is renowned for his expertise in Arcanetions,
                             showcasing strategic prowess and adept gameplay. With a passion for mastering game mechanics and
                             fostering camaraderie, he stands as a formidable player in the gaming community.</p>
                     </div>

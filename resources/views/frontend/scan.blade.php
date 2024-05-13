@@ -29,26 +29,15 @@
 
                 <div class="html scan visible">
                     <div class="forms">
-                        <div class="group clearfix slideInRight animated">
-                            <label class="pull-left" for="scan-time"><span class="ion-ios-time-outline"></span>
-                                Time</label>
-                            <input class="pull-right" id="scan-time" type="time">
+                        <div class="qrcode">
+                            <span class="ion-qr-scanner"
+                                style=""></span>
+                            <div class="square">
+                                <div class="scan">
+                                </div>
+                            </div>
                         </div>
-                        <div class="group clearfix slideInLeft animated">
-                            <label class="pull-left" for="scan-date"><span class="ion-ios-calendar-outline"></span>
-                                Date</label>
-                            <input class="pull-right" id="scan-date" type="date">
-                        </div>
-                        <div class="group clearfix slideInRight animated">
-                            <label class="pull-left" for="scan-title"><span class="ion-ios-paper-outline"></span>
-                                Title</label>
-                            <input class="pull-right" id="scan-title" type="text">
-                        </div>
-                        <div class="group clearfix slideInLeft animated">
-                            <label class="visible" for="scan-detail"><span class="ion-ios-list-outline"></span>
-                                Task</label>
-                            <textarea class="visible" id="scan-detail" rows="3"></textarea>
-                        </div>
+
                         <div class="action flipInY animated">
                             <button class="btn">Scan</button>
                         </div>

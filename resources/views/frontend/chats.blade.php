@@ -29,13 +29,8 @@
 
 
                 <div class="html chats visible">
-                    <div class="tabs-list clearfix">
-                        <a href="#" class="tab active">Users</a>
-                        <a href="#" class="tab">Messages</a>
-                        <a href="#" class="tab">Groups</a>
-                    </div>
                     <div class="active-users">
-                        <div class="user clearfix rotateInDownLeft animated">
+                        <div class="user clearfix rotateInDownLeft animated" onclick="openChat(0)">
                             <div class="photo pull-left">
                                 <img src="https://randomuser.me/api/portraits/men/99.jpg">
                             </div>
@@ -97,9 +92,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
 
             {{-- Load Nav from layout --}}
