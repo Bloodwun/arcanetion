@@ -29,26 +29,20 @@
 
                 <div class="html scan visible">
                     <div class="forms">
-                        <div class="qrcode">
-                            <span class="ion-qr-scanner"
-                                style=""></span>
-                            <div class="square">
-                                <div class="scan">
-                                </div>
+                        <div class="card mb-5 card-transparent">
+                            <div class="card-body text-center">
+                                <img class="image-fluid" src="{{ asset('images/qrcode.png') }}" height="150">
                             </div>
                         </div>
 
                         <div class="action flipInY animated">
-                            <button class="btn">Scan</button>
+                            <button class="btn btn-primary">Scan</button>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            {{-- Load Nav from layout --}}
-
-            @include('layout.nav')
 
         </div>
     </div>

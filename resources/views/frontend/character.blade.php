@@ -27,12 +27,22 @@
                 </div>
 
                 <div class="html character visible">
-                    <div class="flipInX animated">
-                        <h2>Abdul Shakoor</h2>
+                    <div class="characters">
+                        <div class="item">
+                            <div class="card card-transparent">
+                                <div class="card-body">
+                                    <div class="flipInX animated">
+                                        <h6 class="fs-xxxs my-0">Winner</h6>
+                                        <h5>Abdul Shakoor</h5>
+                                    </div>
+                                    <p class="flipInX animated">Elf </p>
+                                    <p class="flipInX animated">Male </p>
+                                    <p class="flipInX animated">Wearing blue jean white shirt and blue robe carrying a stave
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="flipInX animated">Elf </h5>
-                    <h5 class="flipInX animated">Male </h5>
-                    <p class="flipInX animated">Wearing blue jean white shirt and blue robe carrying a stave</p>
                 </div>
 
             </div>

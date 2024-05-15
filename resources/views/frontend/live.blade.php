@@ -43,7 +43,7 @@
                         </button>
                     </div> --}}
                     <div class="row">
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/1.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
@@ -52,31 +52,49 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/2.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
                             </div>
                         </div>
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/3.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
                             </div>
                         </div>
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/4.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
                             </div>
                         </div>
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/5.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
                             </div>
                         </div>
-                        <div class="col-sm-4 p-0">
+                        <div class="col-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/6.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/4.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-4 p-0">
+                            <div class="live-img"
+                                style="background-image: url('{{ asset('images/users/5.jpeg') }}'); background-size: cover">
+                                {{-- <p>Winner</p> --}}
+                            </div>
+                        </div>
+                        <div class="col-4 p-0">
                             <div class="live-img"
                                 style="background-image: url('{{ asset('images/users/6.jpeg') }}'); background-size: cover">
                                 {{-- <p>Winner</p> --}}
@@ -85,18 +103,23 @@
                     </div>
 
                     {{-- Results --}}
-                    <div class="results">
-                        <div class="heading">
-                            <h5 class="color-primary">Results</h5>
-                        </div>
-                        <div class="item">
-                            <h5 class="flipInX animated my-0">The elf Abdul cast a spell at the goblin</h5>
+                    <div class="card mt-3">
+                        <div class="card-body pt-0">
+                            <div class="results">
+                                <div class="heading">
+                                    <h5 class="color-primary">Results</h5>
+                                </div>
+                                <div class="item">
+                                    <p class="flipInX animated my-0">The elf Abdul cast a spell at the goblin</p>
 
-                            <h6 class="flipInX animated my-0"> Casted Fire storm </h6>
-                            <h6 class="flipInX animated my-0">Successful attack </h6>
-                            <p class="flipInX animated my-0">overcame oppenent resistance and was able to cause fire damage
-                            </p>
+                                    <p class="flipInX animated my-0"> Casted Fire storm </p>
+                                    <p class="flipInX animated my-0">Successful attack </p>
+                                    <p class="flipInX animated my-0">overcame oppenent resistance and was able to cause fire
+                                        damage
+                                    </p>
 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 body {
     background: Black;
-    font: 300 18px/18px Roboto
+    /* font: 300 18px/18px Roboto */
+    font-family: "Oswald", sans-serif;
 }
 
 *,
@@ -32,6 +33,34 @@ h6 {
 
 .color-primary {
     color: #f23363;
+}
+
+.card-transparent {
+    background-color: rgba(0, 0, 0, .19);
+}
+
+.results .item h6 {
+    line-height: 1.2rem;
+    color: #333;
+}
+
+.results .item p {
+    font-size: 12px;
+    line-height: 1.2rem;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+.characters .item h6 {
+    line-height: 1.2rem;
+    color: #fff;
+}
+
+.characters .item p {
+    font-size: 12px;
+    line-height: 1.2rem;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 .mobile-wrap {
@@ -77,7 +106,7 @@ h6 {
 }
 
 .mobile .header>span {
-    font-size: 24px;
+    /* font-size: 24px; */
     min-width: 24px
 }
 
@@ -311,7 +340,7 @@ h6 {
 
 .sidebar .sidebar-content .top-head .email {
     font-size: 13px;
-    margin-bottom: 50px
+    margin-bottom: 10px
 }
 
 .sidebar .sidebar-content .nav-left>a {
@@ -415,6 +444,10 @@ h6 {
 
 .btn-primary {
     background: #cf0e3f;
+}
+
+.btn-primary:hover {
+    background: #fc2258;
 }
 
 .btn-sm {
@@ -1410,7 +1443,7 @@ h6 {
     color: #fff;
     padding: 3.2rem;
     position: absolute;
-    top: 120px;
+    /* top: 120px; */
 }
 
 .qrcode .center {
@@ -1429,11 +1462,9 @@ h6 {
 
 .qrcode .square {
     width: 270px;
-    height: 350px;
+    height: 270px;
     background: transparent;
-    border: 10px solid #999;
-    position: absolute;
-    top: 100px;
+    border: 2px solid #999;
 }
 
 .qrcode .scan {
