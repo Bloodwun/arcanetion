@@ -381,6 +381,19 @@ h6 {
     height: 1px;
 }
 
+.card {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text-right {
+    text-align: right
+}
+
+.bg-gray-50 {
+    background-color: #f5f5f5;
+}
+
 .html.welcome .html.search,
 /*.html.profile, */
 /*.html.live,*/
@@ -450,9 +463,25 @@ h6 {
     background: #fc2258;
 }
 
+.btn-message {
+    font-size: 24px;
+    padding: 1px 10px;
+    background: #fc2258;
+    border-radius: 1px 5px 5px 1px;
+}
+
+.btn-message:hover {
+    background: #fc2258;
+}
+
 .btn-sm {
     font-size: 11px;
     padding: 5px 10px;
+}
+
+.form-control {
+    font-size: 12px;
+    border: none;
 }
 
 .search .title {
@@ -1482,4 +1511,81 @@ h6 {
     100% {
         transform: translatey(270px);
     }
+}
+
+
+/* Messages Section Start */
+
+.messages {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+}
+
+.messages .item {
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.messages .item p {
+    font-size: 11px;
+}
+
+.messages .dice {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Messages Section End */
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*  */
+
+div.mm-dropdown {
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+div.mm-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div.mm-dropdown ul li,
+div.mm-dropdown div.textfirst {
+    padding: 0;
+    color: #333;
+    padding: 5px;
+    border: none;
+    background: rgba(0, 0, 0, .5);
+}
+
+div.mm-dropdown div.textfirst img.down {
+    float: right;
+    margin-top: 5px
+}
+
+div.mm-dropdown ul li:last-child {
+    border-bottom: 0;
+}
+
+div.mm-dropdown ul li {
+    display: none;
+}
+
+div.mm-dropdown ul li.main {
+    display: block;
 }
