@@ -47,7 +47,7 @@
                                 </div>
                                 {{-- Dice --}}
                                 <div class="dice">
-                                    <img src="{{ asset('images/dice.svg') }}" width="50" alt="Dice">
+                                    <img src="{{ asset('images/D6.png') }}" width="50" height="50" alt="Dice">
                                 </div>
                             </div>
                             <div class="card card-transparent" style="height: 50px;">
@@ -99,28 +99,32 @@
                                 <div class="position-absolute cursor-pointer" style="bottom: 5px;">
                                     <div class="mm-dropdown">
                                         <div class="textfirst">
-                                            <img src="{{ asset('images/dice6.svg') }}" width="50" height="50"
+                                            <img src="{{ asset('images/D4.png') }}" width="50" height="50"
                                                 class="down" />
                                         </div>
                                         <ul>
                                             <li class="input-option" data-value="5">
-                                                <img src="{{ asset('images/dice5.svg') }}" alt="" width="50"
+                                                <img src="{{ asset('images/D6.png') }}" alt="" width="50"
                                                     height="50" />
                                             </li>
                                             <li class="input-option" data-value="4">
-                                                <img src="{{ asset('images/dice4.svg') }}" alt="" width="50"
+                                                <img src="{{ asset('images/D8.png') }}" alt="" width="50"
                                                     height="50" />
                                             </li>
                                             <li class="input-option" data-value="3">
-                                                <img src="{{ asset('images/dice3.svg') }}" alt="" width="50"
+                                                <img src="{{ asset('images/D10.png') }}" alt="" width="50"
                                                     height="50" />
                                             </li>
                                             <li class="input-option" data-value="2">
-                                                <img src="{{ asset('images/dice2.svg') }}" alt="" width="50"
+                                                <img src="{{ asset('images/D12.png') }}" alt="" width="50"
                                                     height="50" />
                                             </li>
                                             <li class="input-option" data-value="1">
-                                                <img src="{{ asset('images/dice1.svg') }}" alt="" width="50"
+                                                <img src="{{ asset('images/D20.png') }}" alt="" width="50"
+                                                    height="50" />
+                                            </li>
+                                            <li class="input-option" data-value="0">
+                                                <img src="{{ asset('images/D100.png') }}" alt="" width="50"
                                                     height="50" />
                                             </li>
                                         </ul>
@@ -146,11 +150,11 @@
             var li = $('div.mm-dropdown > ul > li.input-option')
             var inputoption = $("div.mm-dropdown .option")
             var default_text =
-                '<img src="{{ asset('images/dice6.svg') }}" width="50" height="50" class="down" />';
+                '<img src="{{ asset('images/D4.png') }}" width="50" height="50" class="down" />';
 
             // Animation
             main.click(function() {
-                main.html(default_text);
+                // main.html(default_text);
                 li.toggle('fast');
             });
 

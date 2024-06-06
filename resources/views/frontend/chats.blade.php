@@ -30,65 +30,89 @@
 
                 <div class="html chats visible">
                     <div class="active-users">
-                        <div class="user clearfix rotateInDownLeft animated" onclick="openChat(0)">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/99.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownLeft animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/99.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Connor Hartigan</p>
+                                        <p class="position">Web &amp; UI Designer</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="away"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Connor Hartigan</p>
-                                <p class="position">Web &amp; UI Designer</p>
-                            </div>
-                            <div class="idle pull-right"><span class="away"></span></div>
                         </div>
-                        <div class="user clearfix rotateInDownRight animated">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/89.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownRight animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/89.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Jacob Lennon</p>
+                                        <p class="position">Front-End Developer</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="offline"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Jacob Lennon</p>
-                                <p class="position">Front-End Developer</p>
-                            </div>
-                            <div class="idle pull-right"><span class="offline"></span></div>
                         </div>
-                        <div class="user clearfix rotateInDownLeft animated">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/79.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownLeft animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/79.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Didier Mailly</p>
+                                        <p class="position">Co-Founder</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="away"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Didier Mailly</p>
-                                <p class="position">Co-Founder</p>
-                            </div>
-                            <div class="idle pull-right"><span class="away"></span></div>
                         </div>
-                        <div class="user clearfix rotateInDownRight animated">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/69.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownRight animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/69.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Miguel Cunha Ferreira</p>
+                                        <p class="position">Sales Manager</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="online"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Miguel Cunha Ferreira</p>
-                                <p class="position">Sales Manager</p>
-                            </div>
-                            <div class="idle pull-right"><span class="online"></span></div>
                         </div>
-                        <div class="user clearfix rotateInDownLeft animated">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/59.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownLeft animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/59.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Eric Yuriev</p>
+                                        <p class="position">App Developer</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="online"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Eric Yuriev</p>
-                                <p class="position">App Developer</p>
-                            </div>
-                            <div class="idle pull-right"><span class="online"></span></div>
                         </div>
-                        <div class="user clearfix rotateInDownRight animated">
-                            <div class="photo pull-left">
-                                <img src="https://randomuser.me/api/portraits/men/49.jpg">
+                        <div class="card card-transparent">
+                            <div class="card-body py-1">
+                                <div class="user clearfix rotateInDownRight animated" onclick="openChat(0)">
+                                    <div class="photo pull-left">
+                                        <img src="https://randomuser.me/api/portraits/men/49.jpg">
+                                    </div>
+                                    <div class="desc pull-left">
+                                        <p class="name">Theodore Clark</p>
+                                        <p class="position">Project Manager</p>
+                                    </div>
+                                    <div class="idle pull-right"><span class="online"></span></div>
+                                </div>
                             </div>
-                            <div class="desc pull-left">
-                                <p class="name">Theodore Clark</p>
-                                <p class="position">Project Manager</p>
-                            </div>
-                            <div class="idle pull-right"><span class="online"></span></div>
                         </div>
                     </div>
                 </div>
@@ -100,4 +124,11 @@
 
         </div>
     </div>
+
+    <script>
+        function openChat(id) {
+            // open route messages
+            window.location.href = '/messages/' + id
+        }
+    </script>
 @endsection

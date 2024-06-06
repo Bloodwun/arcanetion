@@ -41,6 +41,11 @@ Route::get('/chats', function () {
     return view('frontend.chats');
 })->name('chats');
 
+// chats
+Route::get('/messages/{id}', function () {
+    return view('frontend.messages');
+})->name('messages');
+
 // settings
 Route::get('/settings', function () {
     return view('frontend.settings');
