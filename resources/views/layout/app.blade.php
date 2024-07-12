@@ -35,6 +35,36 @@
     <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/instascan.min.js') }}"></script>
+
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/instascan/1.0.0/instascan.min.js"></script> --}}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const scanner = new Instascan.Scanner({
+                video: document.getElementById('qrScanner')
+            });
+            scanner.addListener('scan', function(content) {
+
+                document.getElementById('qrScanner').classList.add('d-none');
+                document.getElementById('qrScanForm').style.display = 'block';
+
+
+                console.log('Scanned:', content);
+            });
+
+            document.getElementById('scanBtn').addEventListener('click', function() {
+                Instascan.Camera.getCameras().then(function(cameras) {
+                    if (cameras.length > 0) {
+                        scanner.start(cameras[0]);
+                    } else {
+                        console.error('No cameras found.');
+                    }
+                }).catch(function(e) {
+                    console.error(e);
+                });
+            });
+        });
+    </script>
 
 </body>
 

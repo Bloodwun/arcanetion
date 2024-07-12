@@ -25,25 +25,36 @@
                     <div class="title bounceInDown animated">Search Result</div>
                     <p class="flipInX animated">Sorry,<br>no matches found for <b class="key"></b></p>
                 </div>
-
-
                 <div class="html scan visible">
                     <div class="forms">
                         <div class="card mb-5 card-transparent">
                             <div class="card-body text-center">
-                                <img class="image-fluid" src="{{ asset('images/qrcode.png') }}" height="150">
-                            </div>
-                        </div>
+                                <!-- QR Code display sections (uncommented) -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <span class="ml-4">
+                                            {!! $simple !!}
+                                        </span>
+                                        <div class="mt-4">
+                                            <button id="scanBtn" class="btn btn-primary w-100">Scan QR Code</button>
+                                        </div>
+                                    </div>
 
-                        <div class="action flipInY animated">
-                            <button class="btn btn-primary">Scan</button>
+                                </div>
+                                <!-- End QR Code display sections -->
+
+                                <!-- Scan button -->
+
+
+                                <!-- Form to display after successful scan -->
+                                <form id="qrScanForm" style="display: none;">
+                                    <!-- Form elements here -->
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     </div>
 @endsection

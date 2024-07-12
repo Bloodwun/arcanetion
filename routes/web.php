@@ -21,9 +21,7 @@ Route::get('/character', function () {
 })->name('character');
 
 // scan
-Route::get('/scan', function () {
-    return view('frontend.scan');
-})->name('scan');
+Route::get('/scan', [App\Http\Controllers\QRcodeGenerateController::class, 'qrcode'])->name('scan');
 
 // play
 Route::get('/play', function () {
