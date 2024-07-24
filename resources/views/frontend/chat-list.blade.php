@@ -1,7 +1,5 @@
 {{-- Load app layout --}}
-
 @extends('layout.app')
-
 @section('content')
     <div class="mobile-wrap">
         <div class="mobile clearfix">
@@ -15,7 +13,6 @@
                     </form>
                 </div>
             </div>
-
             {{-- Load sidebar from layout --}}
             @include('layout.sidebar')
 
@@ -25,9 +22,6 @@
                     <div class="title bounceInDown animated">Search Result</div>
                     <p class="flipInX animated">Sorry,<br>no matches found for <b class="key"></b></p>
                 </div>
-
-
-
                 <div class="html chats visible">
                     <div class="active-users">
                         <div class="card card-transparent">

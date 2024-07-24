@@ -15,8 +15,6 @@
                     </form>
                 </div>
             </div>
-
-
             {{-- Load sidebar from layout --}}
             @include('layout.sidebar')
 
@@ -35,10 +33,7 @@
                     <h5 class="flipInX animated"> Casted Fire storm </h5>
                     <h5 class="flipInX animated">Successful attack </h5>
                     <p class="flipInX animated">overcame oppenent resistance and was able to cause fire damage</p>
-
                 </div>
-
-
             </div>
 
             {{-- Load Nav from layout --}}

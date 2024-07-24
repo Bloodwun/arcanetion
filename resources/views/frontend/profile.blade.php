@@ -20,14 +20,10 @@
             @include('layout.sidebar')
 
             <div class="content">
-
                 <div class="html search">
                     <div class="title bounceInDown animated">Search Result</div>
                     <p class="flipInX animated">Sorry,<br>no matches found for <b class="key"></b></p>
                 </div>
-
-
-
                 <div class="html profile visible">
                     <div class="photo flipInX animated">
                         <img src="{{ asset('images/users/abdul.jpg') }}">
@@ -55,14 +51,9 @@
                             fostering camaraderie, he stands as a formidable player in the gaming community.</p>
                     </div>
                 </div>
-
-
             </div>
-
             {{-- Load Nav from layout --}}
-
             @include('layout.nav')
-
         </div>
     </div>
 @endsection

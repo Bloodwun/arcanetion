@@ -15,19 +15,13 @@
                     </form>
                 </div>
             </div>
-
             {{-- Load sidebar from layout --}}
             @include('layout.sidebar')
-
             <div class="content">
-
                 <div class="html search">
                     <div class="title bounceInDown animated">Search Result</div>
                     <p class="flipInX animated">Sorry,<br>no matches found for <b class="key"></b></p>
                 </div>
-
-
-
                 <div class="html chats visible">
                     <div class="row">
                         <div class="col-sm-12 p-1">
@@ -63,12 +57,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 @endsection
