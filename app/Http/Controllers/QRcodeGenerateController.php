@@ -19,6 +19,9 @@ class QRcodeGenerateController extends Controller
 
         return view('frontend.scan', $qrCodes);
     }
+    public function qrcodeForm()
+    {
+        return view('frontend.qr-code-form');
 
-
+    }
 }

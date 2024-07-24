@@ -22,7 +22,7 @@ Route::get('/character', function () {
 
 // scan
 Route::get('/scan', [App\Http\Controllers\QRcodeGenerateController::class, 'qrcode'])->name('scan');
-
+Route::get('/qr-code-form', [App\Http\Controllers\QRcodeGenerateController::class, 'qrcodeForm'])->name('qrcodeForm');
 // play
 Route::get('/play', function () {
     return view('frontend.play');

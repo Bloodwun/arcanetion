@@ -48,6 +48,7 @@
     <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
     {{-- <script src="{{ asset('js/instascan.min.js') }}"></script> --}}
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('scanButton').addEventListener('click', function() {
@@ -66,23 +67,23 @@
                         },
                         qrCodeMessage => {
                             // handle the scanned code as you like
-                            alert(`QR Code detected: ${qrCodeMessage}`);
 
                             // AJAX call to store QR code result
                             $.ajax({
-                                url: '/qr-code-result',
-                                type: 'POST',
+                                url: '{{ route('qrcodeForm') }}',
+                                type: 'GET',
                                 data: {
                                     _token: '{{ csrf_token() }}',
                                     result: qrCodeMessage
                                 },
                                 success: function(response) {
-                                    alert(response.success);
+                                    // Log the redirection URL to verify
+                                    console.log("Redirection URL: {{ route('qrcodeForm') }}");
+                                    // Redirect to the QR code form route
+                                    window.location.href = "{{ route('qrcodeForm') }}";
                                 },
                                 error: function(xhr) {
-                                    alert(
-                                        'An error occurred while storing the QR code result.'
-                                    );
+
                                 }
                             });
 
@@ -101,6 +102,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
